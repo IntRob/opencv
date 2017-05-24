@@ -266,7 +266,7 @@ if(ANDROID)
 endif(ANDROID)
 
 # step 3.5: generate Android library project
-if(ANDROID AND ANDROID_EXECUTABLE)
+if(0)
   set(lib_target_files ${ANDROID_LIB_PROJECT_FILES})
   ocv_list_add_prefix(lib_target_files "${OpenCV_BINARY_DIR}/")
 

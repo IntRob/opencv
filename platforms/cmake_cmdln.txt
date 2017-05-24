@@ -1,0 +1,3 @@
+cmake ~/work/opencv -GNinja -DANDROID_ABI:STRING="arm64-v8a" -DANDROID_NDK:PATH=~/Library/Android/sdk/ndk-bundle -DWITH_OPENCL:BOOL=ON -DBUILD_SHARED_LIBS:BOOL=OFF -DCMAKE_TOOLCHAIN_FILE:FILEPATH=~/work/opencv/platforms/android/android.toolchain.cmake
+
+
